@@ -1,39 +1,55 @@
-.App {
-  text-align: center;
+body{
+  font-family: "Open Sans", sans-serif;
+  color: lightslategray;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3 {
+  font-family: "Lobster", cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+h2 {
+  color: brown;
+  margin: 0;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h4 {
+  color: darkslategray;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+header h2 {
+  color: darkslategray;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+
+.site-footer {
+  background-image: linear-gradient(#71f1af, white);
+  padding: 20px 0;
+  width: relative;
+}
+
+.jumbotron {
+  padding: 0;
+  background-color: forestgreen;
+  color: black;
+  margin: 0;
+}
+
+.row-content {
+  padding: 20px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.navbar {
+  background-color: tan;
+}
+
+.card-title {
+  font: 500 1.25rem "Lobster", cursive;
+}
+
+.card-img-overlay .card-title {
+  color: white;
+  background-color: rgba( 0, 0, 0, 0.5);
 }
