@@ -5,7 +5,7 @@ const LocationCard = ({ location }) => {
   const { image, name } = location;
   return (
     <Card>
-      <CardImg width="100%" src={image} alt={name} />
+      <CardImg width="50%" src={image} alt={name} />
       <CardImgOverlay>
         <CardTitle>{name}</CardTitle>
       </CardImgOverlay>

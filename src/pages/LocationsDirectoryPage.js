@@ -11,10 +11,18 @@ const LocationsDirectoryPage = () => {
     <Container>
       <Row>
         <Col sm="5" md="7">
-          <LocationsList setLocationId={setLocationId} />
+          <LocationsList
+            setLocationId={setLocationId}
+            height="50%"
+            width="50%"
+          />
         </Col>
         <Col sm="7" md="5">
-          <LocationDetail location={selectedLocation} />
+          <LocationDetail
+            location={selectedLocation}
+            height="50%"
+            width="50%"
+          />
         </Col>
       </Row>
     </Container>
