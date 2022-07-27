@@ -5,7 +5,7 @@ const Footer = () => {
       <Container>
         <Row>
           <Col xs={{ size: 4, offset: 1 }} sm="2">
-            <h5>Site Navigation</h5>
+            <h5>Footer</h5>
           </Col>
         </Row>
       </Container>

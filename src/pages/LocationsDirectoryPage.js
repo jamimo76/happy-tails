@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Container, Row, Col } from "reactstrap";
 import LocationDetail from "../features/locations/LocationDetail";
 import LocationsList from "../features/locations/LocationsList";
-import { selectLocationById } from "../features/locations/locationSlice";
+import { selectLocationById } from "../features/locations/LocationsSlice";
 
 const LocationsDirectoryPage = () => {
   const [locationId, setLocationId] = useState(0);

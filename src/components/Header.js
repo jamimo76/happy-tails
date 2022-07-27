@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <Navbar light color sticky="top" expand="md">
       <NavbarBrand href="/">
-        <h1 text align="center">
+        <h1 text align="left">
           Happy Tails Trails
         </h1>
       </NavbarBrand>
